@@ -1,3 +1,7 @@
+body{
+    font-family: Lato,sans-serif;
+}
+
 h6{
     text-transform: uppercase;
     color:gray;
@@ -23,16 +27,23 @@ h2{
 .btn-nav{
     background-color: #fff;
     font-size: 14px;
+    color: gray;
+}
+a.contactdetails {
+    color: gray;
+    font-size: 13px;
 }
 .navheader {
     font-size: 14px;
-    padding-right: 12%;
+    margin-left: 5%;
+    margin-right: 2%;
 }
 .getintouch{
     background-color:#003366;
     color:#fff;
     font-size: 13px;
     border-radius: unset;
+    margin: 0 32px;
 }
 .fonticons {
     padding: 8px;
@@ -101,4 +112,114 @@ section.about-us{
 }
 .about-para {
     margin: 2% 21%;
+}
+.key-facts-para ul li {
+    font-size: 15px;
+}
+.key-facts-heading h5{
+    color:#003366;
+    padding-bottom:4%;
+}
+.key-facts-bg{
+    background-color:#C0C0C0;
+}
+    .key-facts-para {
+        padding: 3% 10%;
+}
+section.key-facts{
+    padding-bottom:4%;
+}
+.map-btn{
+    padding-bottom:4%;
+}
+.form-heading h2{
+    color:#003366;
+    padding-top:4%;
+    padding-bottom:3%;
+}
+.submit-btn{
+    background-color:#003366;
+    width: 360px;
+    color:#fff;
+}
+.submitbtn1 {
+    margin-left: 23%;
+}
+.invest h4{
+    color:#003366;
+    margin-left: 5%;
+}
+.bottom-img{
+    margin:0 5%;
+}
+.invest ul li{
+        font-size: 16px;
+}
+.invest {
+    margin-top: -34px;
+}
+.form-heading h2 {
+    color: #003366;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 40px;
+}
+.invest img {
+    margin-left: 7%;
+    height: 206px;
+    width: 440px;
+    border: 3px solid gray;
+}
+form {
+    border: 1px solid gray;
+    padding-top: 9%;
+    padding-right: 13%;
+}
+footer{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.footer-heading{
+    color:gray;
+}
+.footer-heading4{
+    font-size:40px;
+}
+button.btn.btn-success {
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px grey;
+    width: 228px;
+    height: 77px;
+}
+.whatsapp-btn2 h6 {
+    color: #fff;
+    text-transform: lowercase;
+}
+span.fa.fa-whatsapp.whatsappicon {
+    font-size: 50px;
+    margin-left: -88px;
+}
+.whatsapp-btn2{
+padding-bottom:5%;
+}
+.footer-bg{
+    background-color:black;
+}
+.footer-para {
+    color: #fff;
+    padding: 0 9%;
+    position:relative;
+}
+.footer-para:after {
+    content: "";
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: 55%;
+    right: -33%;
+    background-color: green;
+    border-radius: 100%;
+    font-size: 74px;
+    width: 103px;
 }
